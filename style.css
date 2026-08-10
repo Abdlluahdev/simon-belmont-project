@@ -1,0 +1,143 @@
+/**/
+.page-container{
+                 
+                 min-height:100vh;
+                 margin:0; 
+                 padding:0;
+       /*background image */
+                background-image:url("castlevania.png");
+                 
+                background-size:cover;
+                
+  
+                ;background-repeat:no-repeat;
+  
+  
+               background-attachment:fixed;
+  
+  
+                background-position:center;
+       
+                background-color:rgba(0,0,0,0.6);
+                background-blend-mode:multiply
+  
+                
+}
+h1,h2,a,p,button{color:white;
+          font-family:Gothic}
+h1{text-align:center}
+
+
+
+
+.navbar{
+                 
+                 position:sticky;
+                 top:0;
+                 display:flex;
+                 
+                 justify-content:space-between;
+                 
+                 align-items:center;
+                 
+                 background-color:rgb(15,15,15,0.75)}
+
+
+a{font-size:23px ;
+   padding-right:10px;
+   border:;               
+   text-decoration:none;
+}
+.lk1:hover
+{background-color:rgba(139,0,0,0.6);
+ transition:0.2s}
+
+/*add margin to the logo */
+#logo{width:30px;height:23px;
+      padding-left:10px;}
+
+.hero_card{
+                 min-height:100px;
+                 margin-top:30px;
+                 
+                 width:90%;
+                 max-width:400px;
+                 background:rgba(0,0,0,0.7);
+                 
+                 display:flex;
+                 flex-direction:column;
+                 
+                 
+                 justify-content: center;
+                 align-items: center;
+                 
+                 border-radius:20px; 
+                 
+                 padding: 10px;
+                 
+}
+
+
+
+.hero_card button{
+                 background:rgba(155,9,0);
+                 /*الحجم نستعمل النسبة المئوية */
+                 width:30%;
+                 height:40%;
+                /*الاطار  وتنعيم الحواف*/ 
+                 border:none;
+                 border-radius:10px;
+                 /*المسافات الداخلية*/
+                 padding:20px;
+                 /*حجم الخط المستخدم*/
+                 font-size:15px
+                 
+}
+.hero_card button:hover{
+         background:rgb(92,9,9);        
+         transition:0.2s        
+}
+
+
+
+
+
+
+footer{
+            margin-top:100px; 
+                 
+             background:black;
+              display:flex;
+                 flex-direction:column;
+                 align-items:center;
+                 
+                 justify-content:space-between;   
+                 
+                 height:50vh;
+                 
+}      
+
+.lk2:hover{color:rgba(139,0,0);
+           text-decoration:underline;      
+           transition:0.2s;}
+  #animtion{
+                   width:60%;
+                   max-width:400px;
+                   display:none;
+  }               
+                 
+                 
+                 
+@media (max-width:600px)
+{
+  .page-container{
+    background-size:100% 100vh;
+    
+  }
+      
+                 
+}
+
+@font-face{
+            font-family:"Gothic";
+            src:url("PirataOne-Regular.ttf")}
